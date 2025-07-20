@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "input_documents": [
+      "mock_financial_report.pdf",
+      "mock_research_paper.pdf"
+    ],
+    "persona": "PhD Researcher in Computational Biology",
+    "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+    "processing_timestamp": "2025-07-20T12:15:49.222892"
+  },
+  "extracted_sections": [
+    {
+      "document": "mock_research_paper.pdf",
+      "page_number": 1,
+      "section_title": "Title: Graph Neural Networks for Drug Discovery",
+      "importance_rank": 1
+    },
+    {
+      "document": "mock_financial_report.pdf",
+      "page_number": 1,
+      "section_title": "Title: 2024 Annual Report \u2013 Innovatech Inc.",
+      "importance_rank": 2
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "mock_research_paper.pdf",
+      "page_number": 1,
+      "section_title": "Title: Graph Neural Networks for Drug Discovery",
+      "refined_text": "Title: Graph Neural Networks for Drug Discovery\nSection 1: Introduction\nGraph Neural Networks (GNNs) have emerged as powerful tools for learning on graph-structured\ndata. In recent years, their application to drug discovery has accelerated due to their ability to model\nmolecular interactions effectively.\nSection 2: Methodologies\nSeveral GNN architectures have been developed for molecular property prediction:\n\u2022 Graph Convolutional Networks (GCNs)\n\u2022 Graph Attention Networks (GATs)\n\u2022 Message Passing Neural Networks (MPNNs)\nEach has unique strengths in capturing local vs. global chemical patterns.\nSection 3: Datasets Used\nPopular benchmark datasets for drug-related GNN research include:\n\u2022 MoleculeNet (e.g., Tox21, HIV)\n\u2022 ZINC dataset\n\u2022 QM9 dataset for quantum property prediction\nSection 4: Performance Metrics\nEvaluation is often done using AUC-ROC, RMSE, or MAE depending on the task. GATs have shown\nstrong performance on classification tasks, while MPNNs perform well on regression tasks.\nSection 5: Conclusion\nGNNs offer a promising future for AI-assisted drug discovery, especially when combined with\ndomain-specific priors and 3D structural data."
+    },
+    {
+      "document": "mock_financial_report.pdf",
+      "page_number": 1,
+      "section_title": "Title: 2024 Annual Report \u2013 Innovatech Inc.",
+      "refined_text": "Title: 2024 Annual Report \u2013 Innovatech Inc.\nSection 1: Executive Summary\nInnovatech Inc. experienced steady growth in fiscal year 2024. Our diversification strategy and\nincreased R&D spending have strengthened market positioning.\nSection 2: Revenue Trends\nTotal revenue increased by 12% year-over-year, reaching $4.8 billion. Key drivers included:\n\u2022 Cloud infrastructure services (+18%)\n\u2022 AI products licensing (+22%)\nSection 3: R&D Investments\nWe invested $600 million in R&D, representing 12.5% of total revenue \u2014 up from 9% in 2023. Major\nfocus areas included:\n\u2022 Quantum computing\n\u2022 AI ethics research\n\u2022 Energy-efficient chip design\nSection 4: Competitive Positioning\nCompared to competitors, Innovatech\u2019s agility and innovation pipeline put it in a strong strategic\nposition. Key partners include OpenCompute and FutureAI.\nSection 5: Looking Ahead\nIn 2025, we aim to expand in Asia-Pacific and launch a new line of AI-enabled enterprise services."
+    }
+  ]
+}
