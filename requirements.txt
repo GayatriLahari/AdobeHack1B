@@ -1,0 +1,5 @@
+numpy<2.0
+torch==2.1.2
+sentence-transformers==2.2.2
+huggingface-hub==0.15.1
+pdfplumber
