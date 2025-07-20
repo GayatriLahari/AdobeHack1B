@@ -1,7 +1,6 @@
 import pdfplumber
 from sentence_transformers import SentenceTransformer
 model = SentenceTransformer('all-MiniLM-L6-v2')
- # use pre-downloaded model
 
 def extract_chunks(file_path, doc_name):
     chunks = []
